@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #5D3EBC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputBox {
+    display: flex;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 50px;
+    padding-right: 20px;
+
+}
+
+.imgBox {
+    width: 15%;
+    background-color: #FFD10D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.inputBox input {
+    border: none;
+    width: 70%;
+    padding-left: 15px;
+    height: 40px;
+}
+.address {
+    width: 15%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.addressName p, strong {
+    color: white;
+    text-decoration: underline;
+}
+
+.line {
+    height: 20px;
+    width: 1px;
+    background-color: black;
+}
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 8px;
+}
+.userBtn {
+    display: flex;
+    gap: 7px;
+}
+
+nav {
+    width: 100%;
+    background-color: #F5F5F5;
+    height: 50px;
+    border-bottom:1px solid #bebbbb  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navMenu {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 15%;
+    height: 100%;
+}
+.navCard:hover {
+
+    border-bottom: 2px solid #5D3EBC;
+}
+
+.navCard p {
+font-size: 14px;}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    width: 100%;
+}
+.banner {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 75%;
+}
+.discountBox {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #EDEFF3;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.discountBox img {
+    width: 60px;
+}
+.discountCard {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.discountBox p {
+    font-size: 20px;
+}
+.lastProducts {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.products {
+   display: flex;
+   justify-content: space-between; 
+}
+.imgProductCard {
+    border: 1px solid gray;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+.productCard {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-evenly;
+    width: 19%;
+}
+.productCard p {
+    font-size: 18px;
+}
+.productCard .fiyat {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.heart {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
